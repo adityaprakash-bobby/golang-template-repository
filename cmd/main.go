@@ -2,7 +2,11 @@ package main
 
 import "fmt"
 
+func sayHello(name string) {
+	fmt.Printf("Hello, %s!\n", name)
+}
+
 func main() {
 	// Feel free to delete this file.
-	fmt.Println("Hello Gophers")
+	sayHello("Bob")
 }
